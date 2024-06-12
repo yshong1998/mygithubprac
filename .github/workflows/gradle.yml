@@ -16,6 +16,7 @@ env:
   S3_BUCKET_NAME: lion-bucket-yshong
   CODE_DEPLOY_APP_NAME: testCodeDeploy
   CODE_DEPLOY_GROUP_NAME: testDeployGroup
+  PROJECT_NAME: mygithubprac
   
 jobs:
   build:
