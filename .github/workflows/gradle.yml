@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "test" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "test" ]
 env:
   S3_BUCKET_NAME: lion-bucket-yshong
   CODE_DEPLOY_APP_NAME: testCodeDeploy
